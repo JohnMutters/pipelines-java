@@ -1,3 +1,4 @@
+[![Build Status](https://ictonatedev.visualstudio.com/Pipelines-java/_apis/build/status%2FJohnMutters.pipelines-java?branchName=main)](https://ictonatedev.visualstudio.com/Pipelines-java/_build/latest?definitionId=7&branchName=main)
 
 # Contributing
 
