@@ -12,7 +12,7 @@ pool:
 steps:
 - script: |
     echo Hello...
-    echo $(System.AccessToken)
+    echo $(Agent.BuildDirectory)
     
 - task: Maven@3
   inputs:
