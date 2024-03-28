@@ -12,7 +12,8 @@ pool:
 steps:
 - script: |
     echo Hello...
-    echo $(testVar)
+    echo $(Agent.BuildDirectory)
+    echo $(Build.SourcesDirectory)
 
 - task: Maven@3
   inputs:
