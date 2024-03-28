@@ -16,6 +16,7 @@ steps:
     echo $(Build.SourcesDirectory)
     echo $(Build.BinariesDirectory)
     echo 'Binaries: $(Build.BinariesDirectory)'
+    ls $(Build.SourcesDirectory)
 
 - task: Maven@3
   inputs:
